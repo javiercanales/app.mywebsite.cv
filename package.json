@@ -1,0 +1,16 @@
+{
+  "name": "api.mywebsite.nodejs",
+  "version": "1.0.0",
+  "description": "Backend for My Website, initially for a contact form",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "jcanales",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "nodemailer": "^6.5.0"
+  }
+}
