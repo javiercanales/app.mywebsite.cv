@@ -17,7 +17,7 @@ const sendEmail = (req, res) => {
         from: req.body.email,
         to: 'javiercanales.developer@gmail.com',
         subject: req.body.subject,
-        text: req.body.comment + "\n\nEmail del emisor: " + req.body.email
+        text: req.body.comment + "\n\nEmail del emisor: " + req.body.email + "\nNombre del emisor: " + req.body.name
     };
 
     transporter.sendMail(mailOptions, function(err, res){
